@@ -5,6 +5,7 @@ body{
   display:flex;justify-content:center;align-items:center;
   min-height:100vh;text-align:center;padding:28px;
 }
+
 .s4-wrap{
   max-width:340px;width:100%;
   background:rgba(255,255,255,.08);
@@ -13,8 +14,17 @@ body{
   box-shadow:0 8px 26px rgba(0,0,0,.55);
   backdrop-filter:blur(20px);
 }
+
+/* NOVÉ ─ styl fotky */
+.s4-pic{
+  width:150px;height:150px;margin:0 auto 20px;
+  border-radius:20px;object-fit:cover;
+  box-shadow:0 6px 20px rgba(0,0,0,.55);
+}
+
 .s4-title{font-size:26px;font-weight:700;margin-bottom:12px}
-.s4-desc{font-size:15px;opacity:.85;margin-bottom:26px}
+.s4-desc {font-size:15px;opacity:.85;margin-bottom:26px}
+
 .s4-btn{
   display:block;width:100%;padding:17px;font-size:18px;font-weight:700;
   border:none;border-radius:14px;cursor:pointer;
