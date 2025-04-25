@@ -1,4 +1,4 @@
-const OF_URL = 'https://onlyfans.com/TVUJ_USERNAME';   // změň na svůj profil
+const OF_URL = 'https://onlyfans.com/kristynka.cengerova';   // změň na svůj profil
 const AUTO_HOP_MS = 0;  // 0 = jen manuální klik, >0 = auto-delay v ms
 
 function go(){
