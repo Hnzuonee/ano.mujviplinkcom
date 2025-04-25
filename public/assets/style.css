@@ -1,0 +1,12 @@
+body{
+  margin:0;font-family:system-ui,sans-serif;background:#000;color:#fff;
+  display:flex;align-items:center;justify-content:center;height:100vh;
+}
+.wrapper{text-align:center;max-width:420px;}
+.cover{width:100%;border-radius:12px;margin-bottom:1rem;}
+.btn{
+  display:inline-block;background:#e91e63;color:#fff;padding:.8rem 1.6rem;
+  border-radius:8px;text-decoration:none;font-size:1.1rem;
+  transition:transform .2s ease;
+}
+.btn:hover{transform:scale(1.04);}

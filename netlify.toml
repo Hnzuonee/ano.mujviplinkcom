@@ -1,0 +1,9 @@
+[build]
+  functions = "netlify/functions"
+  publish   = "public"
+
+[[redirects]]
+  from = "/r/*"
+  to   = "/.netlify/functions/of-redirect"
+  status = 200
+  force  = true
