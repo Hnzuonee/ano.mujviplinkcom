@@ -1,7 +1,0 @@
-[[redirects]]
-  from   = "/go"
-  to     = "https://onlyfans.com/kristynka.cengerova"
-  status = 302
-  force  = true
-  # POST-only – crawler (GET) zůstane na safe-page
-  conditions = { Method = ["POST"] }
