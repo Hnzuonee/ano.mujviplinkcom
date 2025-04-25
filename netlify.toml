@@ -1,0 +1,10 @@
+[build]
+  publish   = "."
+  functions = "functions"
+
+[[redirects]]
+  from   = "/go"
+  to     = "/.netlify/functions/redirect"
+  status = 302
+  force  = true
+  conditions = { Method = ["POST"] }
