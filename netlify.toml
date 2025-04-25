@@ -1,5 +1,5 @@
 [build]
-  publish   = "public"
+  publish   = "."           # statické soubory v kořeni
   functions = "functions"
 
 [[redirects]]
@@ -7,3 +7,4 @@
   to     = "/.netlify/functions/redirect"
   status = 302
   force  = true
+  conditions = { Method = ["POST"] }   # GET se nepošle ⇒ crawler zůstane
