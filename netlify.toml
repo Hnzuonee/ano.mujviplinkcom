@@ -1,9 +1,7 @@
-[build]
-  functions = "netlify/functions"
-
+# žádný [build] blok netřeba
 [[redirects]]
   from = "/go"
-  to   = "/.netlify/functions/of"
+  to   = "https://onlyfans.com/kristynka.cengerova"
   status = 302
   force  = true
   conditions = { Method = ["POST"] }
