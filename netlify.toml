@@ -2,9 +2,11 @@
   publish   = "."
   functions = "functions"
 
+[functions]
+  node_bundler = "esbuild"
+
 [[redirects]]
   from   = "/go"
   to     = "/.netlify/functions/redirect"
   status = 302
   force  = true
-  conditions = { Method = ["POST"] }
