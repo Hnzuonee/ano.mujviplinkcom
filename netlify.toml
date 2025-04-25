@@ -1,0 +1,9 @@
+[build]
+  functions = "functions"
+  publish   = "public"
+
+[[redirects]]
+  from   = "/go"
+  to     = "/.netlify/functions/redirect"
+  status = 302
+  force  = true
