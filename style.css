@@ -3,7 +3,7 @@ body{
   font-family:Arial,Helvetica,sans-serif;
   background:#0d0017;color:#fff;
   display:flex;justify-content:center;align-items:center;
-  min-height:100vh;text-align:center;padding:28px;
+  min-height:100vh;padding:28px;text-align:center;
 }
 
 .s4-wrap{
@@ -15,7 +15,6 @@ body{
   backdrop-filter:blur(20px);
 }
 
-/* NOVÉ ─ styl fotky */
 .s4-pic{
   width:150px;height:150px;margin:0 auto 20px;
   border-radius:20px;object-fit:cover;
@@ -23,7 +22,7 @@ body{
 }
 
 .s4-title{font-size:26px;font-weight:700;margin-bottom:12px}
-.s4-desc {font-size:15px;opacity:.85;margin-bottom:26px}
+.s4-desc{font-size:15px;opacity:.85;margin-bottom:26px}
 
 .s4-btn{
   display:block;width:100%;padding:17px;font-size:18px;font-weight:700;
